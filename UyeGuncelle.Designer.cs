@@ -1,0 +1,621 @@
+﻿
+namespace Kutuphanecsharp
+{
+    partial class UyeGuncelle
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbldtg = new System.Windows.Forms.Label();
+            this.dtpg = new System.Windows.Forms.DateTimePicker();
+            this.lblWarning = new System.Windows.Forms.Label();
+            this.gendercbxg = new System.Windows.Forms.ComboBox();
+            this.labeladresg = new System.Windows.Forms.Label();
+            this.labelogrenimg = new System.Windows.Forms.Label();
+            this.labelgenderg = new System.Windows.Forms.Label();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.labeldtg = new System.Windows.Forms.Label();
+            this.adtbxg = new System.Windows.Forms.TextBox();
+            this.labeltcg = new System.Windows.Forms.Label();
+            this.lblgender = new System.Windows.Forms.Label();
+            this.labeltelg = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.labelsoyadg = new System.Windows.Forms.Label();
+            this.soyadtbxg = new System.Windows.Forms.TextBox();
+            this.labeladg = new System.Windows.Forms.Label();
+            this.telefontbxg = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tcnotbxg = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.adrestbxg = new System.Windows.Forms.TextBox();
+            this.ogrenimcbxg = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.btnara = new System.Windows.Forms.Button();
+            this.tbxara = new System.Windows.Forms.TextBox();
+            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.tcno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.surname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lbldtg);
+            this.groupBox1.Controls.Add(this.dtpg);
+            this.groupBox1.Controls.Add(this.lblWarning);
+            this.groupBox1.Controls.Add(this.gendercbxg);
+            this.groupBox1.Controls.Add(this.labeladresg);
+            this.groupBox1.Controls.Add(this.labelogrenimg);
+            this.groupBox1.Controls.Add(this.labelgenderg);
+            this.groupBox1.Controls.Add(this.btnUpdate);
+            this.groupBox1.Controls.Add(this.labeldtg);
+            this.groupBox1.Controls.Add(this.adtbxg);
+            this.groupBox1.Controls.Add(this.labeltcg);
+            this.groupBox1.Controls.Add(this.lblgender);
+            this.groupBox1.Controls.Add(this.labeltelg);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.labelsoyadg);
+            this.groupBox1.Controls.Add(this.soyadtbxg);
+            this.groupBox1.Controls.Add(this.labeladg);
+            this.groupBox1.Controls.Add(this.telefontbxg);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.tcnotbxg);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.adrestbxg);
+            this.groupBox1.Controls.Add(this.ogrenimcbxg);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft JhengHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox1.Location = new System.Drawing.Point(12, 81);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(510, 511);
+            this.groupBox1.TabIndex = 41;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "KAYIT GÜNCELLE";
+            // 
+            // lbldtg
+            // 
+            this.lbldtg.AutoSize = true;
+            this.lbldtg.Location = new System.Drawing.Point(246, 177);
+            this.lbldtg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbldtg.Name = "lbldtg";
+            this.lbldtg.Size = new System.Drawing.Size(0, 22);
+            this.lbldtg.TabIndex = 42;
+            this.lbldtg.UseMnemonic = false;
+            this.lbldtg.Visible = false;
+            // 
+            // dtpg
+            // 
+            this.dtpg.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpg.Location = new System.Drawing.Point(291, 178);
+            this.dtpg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpg.Name = "dtpg";
+            this.dtpg.Size = new System.Drawing.Size(168, 30);
+            this.dtpg.TabIndex = 53;
+            // 
+            // lblWarning
+            // 
+            this.lblWarning.AutoSize = true;
+            this.lblWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblWarning.ForeColor = System.Drawing.Color.Red;
+            this.lblWarning.Location = new System.Drawing.Point(271, 415);
+            this.lblWarning.Name = "lblWarning";
+            this.lblWarning.Size = new System.Drawing.Size(0, 18);
+            this.lblWarning.TabIndex = 52;
+            // 
+            // gendercbxg
+            // 
+            this.gendercbxg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gendercbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.gendercbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.gendercbxg.FormattingEnabled = true;
+            this.gendercbxg.Items.AddRange(new object[] {
+            "ERKEK",
+            "KADIN"});
+            this.gendercbxg.Location = new System.Drawing.Point(291, 209);
+            this.gendercbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gendercbxg.Name = "gendercbxg";
+            this.gendercbxg.Size = new System.Drawing.Size(168, 28);
+            this.gendercbxg.TabIndex = 43;
+            // 
+            // labeladresg
+            // 
+            this.labeladresg.AutoSize = true;
+            this.labeladresg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeladresg.ForeColor = System.Drawing.Color.Red;
+            this.labeladresg.Location = new System.Drawing.Point(223, 267);
+            this.labeladresg.Name = "labeladresg";
+            this.labeladresg.Size = new System.Drawing.Size(21, 25);
+            this.labeladresg.TabIndex = 51;
+            this.labeladresg.Text = "*";
+            this.labeladresg.Visible = false;
+            // 
+            // labelogrenimg
+            // 
+            this.labelogrenimg.AutoSize = true;
+            this.labelogrenimg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelogrenimg.ForeColor = System.Drawing.Color.Red;
+            this.labelogrenimg.Location = new System.Drawing.Point(223, 236);
+            this.labelogrenimg.Name = "labelogrenimg";
+            this.labelogrenimg.Size = new System.Drawing.Size(21, 25);
+            this.labelogrenimg.TabIndex = 50;
+            this.labelogrenimg.Text = "*";
+            this.labelogrenimg.Visible = false;
+            // 
+            // labelgenderg
+            // 
+            this.labelgenderg.AutoSize = true;
+            this.labelgenderg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelgenderg.ForeColor = System.Drawing.Color.Red;
+            this.labelgenderg.Location = new System.Drawing.Point(223, 207);
+            this.labelgenderg.Name = "labelgenderg";
+            this.labelgenderg.Size = new System.Drawing.Size(21, 25);
+            this.labelgenderg.TabIndex = 49;
+            this.labelgenderg.Text = "*";
+            this.labelgenderg.Visible = false;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnUpdate.Location = new System.Drawing.Point(307, 455);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(121, 39);
+            this.btnUpdate.TabIndex = 40;
+            this.btnUpdate.Text = "GÜNCELLE";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // labeldtg
+            // 
+            this.labeldtg.AutoSize = true;
+            this.labeldtg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeldtg.ForeColor = System.Drawing.Color.Red;
+            this.labeldtg.Location = new System.Drawing.Point(223, 177);
+            this.labeldtg.Name = "labeldtg";
+            this.labeldtg.Size = new System.Drawing.Size(21, 25);
+            this.labeldtg.TabIndex = 48;
+            this.labeldtg.Text = "*";
+            this.labeldtg.Visible = false;
+            // 
+            // adtbxg
+            // 
+            this.adtbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adtbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.adtbxg.Location = new System.Drawing.Point(250, 57);
+            this.adtbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.adtbxg.Name = "adtbxg";
+            this.adtbxg.Size = new System.Drawing.Size(245, 27);
+            this.adtbxg.TabIndex = 22;
+            // 
+            // labeltcg
+            // 
+            this.labeltcg.AutoSize = true;
+            this.labeltcg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeltcg.ForeColor = System.Drawing.Color.Red;
+            this.labeltcg.Location = new System.Drawing.Point(223, 147);
+            this.labeltcg.Name = "labeltcg";
+            this.labeltcg.Size = new System.Drawing.Size(21, 25);
+            this.labeltcg.TabIndex = 47;
+            this.labeltcg.Text = "*";
+            this.labeltcg.Visible = false;
+            // 
+            // lblgender
+            // 
+            this.lblgender.AutoSize = true;
+            this.lblgender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblgender.Location = new System.Drawing.Point(375, 363);
+            this.lblgender.Name = "lblgender";
+            this.lblgender.Size = new System.Drawing.Size(0, 20);
+            this.lblgender.TabIndex = 39;
+            this.lblgender.Visible = false;
+            // 
+            // labeltelg
+            // 
+            this.labeltelg.AutoSize = true;
+            this.labeltelg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeltelg.ForeColor = System.Drawing.Color.Red;
+            this.labeltelg.Location = new System.Drawing.Point(223, 117);
+            this.labeltelg.Name = "labeltelg";
+            this.labeltelg.Size = new System.Drawing.Size(21, 25);
+            this.labeltelg.TabIndex = 46;
+            this.labeltelg.Text = "*";
+            this.labeltelg.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.Location = new System.Drawing.Point(173, 57);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(52, 27);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "AD :";
+            // 
+            // labelsoyadg
+            // 
+            this.labelsoyadg.AutoSize = true;
+            this.labelsoyadg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelsoyadg.ForeColor = System.Drawing.Color.Red;
+            this.labelsoyadg.Location = new System.Drawing.Point(223, 87);
+            this.labelsoyadg.Name = "labelsoyadg";
+            this.labelsoyadg.Size = new System.Drawing.Size(21, 25);
+            this.labelsoyadg.TabIndex = 45;
+            this.labelsoyadg.Text = "*";
+            this.labelsoyadg.Visible = false;
+            // 
+            // soyadtbxg
+            // 
+            this.soyadtbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.soyadtbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.soyadtbxg.Location = new System.Drawing.Point(250, 87);
+            this.soyadtbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.soyadtbxg.Name = "soyadtbxg";
+            this.soyadtbxg.Size = new System.Drawing.Size(245, 27);
+            this.soyadtbxg.TabIndex = 23;
+            // 
+            // labeladg
+            // 
+            this.labeladg.AutoSize = true;
+            this.labeladg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labeladg.ForeColor = System.Drawing.Color.Red;
+            this.labeladg.Location = new System.Drawing.Point(223, 57);
+            this.labeladg.Name = "labeladg";
+            this.labeladg.Size = new System.Drawing.Size(21, 25);
+            this.labeladg.TabIndex = 44;
+            this.labeladg.Text = "*";
+            this.labeladg.Visible = false;
+            // 
+            // telefontbxg
+            // 
+            this.telefontbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.telefontbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.telefontbxg.Location = new System.Drawing.Point(250, 117);
+            this.telefontbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.telefontbxg.MaxLength = 11;
+            this.telefontbxg.Name = "telefontbxg";
+            this.telefontbxg.Size = new System.Drawing.Size(245, 27);
+            this.telefontbxg.TabIndex = 24;
+            this.telefontbxg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.telefontbxg_KeyPress);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(114, 207);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(110, 27);
+            this.label8.TabIndex = 36;
+            this.label8.Text = "CİNSİYET :";
+            // 
+            // tcnotbxg
+            // 
+            this.tcnotbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tcnotbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tcnotbxg.Location = new System.Drawing.Point(250, 149);
+            this.tcnotbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tcnotbxg.MaxLength = 11;
+            this.tcnotbxg.Name = "tcnotbxg";
+            this.tcnotbxg.Size = new System.Drawing.Size(245, 27);
+            this.tcnotbxg.TabIndex = 25;
+            this.tcnotbxg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tcnotbxg_KeyPress);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(5, 236);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(219, 27);
+            this.label7.TabIndex = 35;
+            this.label7.Text = "ÖĞRENİM DURUMU :";
+            // 
+            // adrestbxg
+            // 
+            this.adrestbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adrestbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.adrestbxg.Location = new System.Drawing.Point(253, 267);
+            this.adrestbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.adrestbxg.Multiline = true;
+            this.adrestbxg.Name = "adrestbxg";
+            this.adrestbxg.Size = new System.Drawing.Size(245, 184);
+            this.adrestbxg.TabIndex = 26;
+            // 
+            // ogrenimcbxg
+            // 
+            this.ogrenimcbxg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ogrenimcbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ogrenimcbxg.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ogrenimcbxg.FormattingEnabled = true;
+            this.ogrenimcbxg.Items.AddRange(new object[] {
+            "İlkokul",
+            "Ortaokul",
+            "Lise",
+            "Önlisans",
+            "Lisans",
+            "Yüksek Lisans"});
+            this.ogrenimcbxg.Location = new System.Drawing.Point(291, 236);
+            this.ogrenimcbxg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ogrenimcbxg.Name = "ogrenimcbxg";
+            this.ogrenimcbxg.Size = new System.Drawing.Size(168, 28);
+            this.ogrenimcbxg.TabIndex = 34;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(133, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 27);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "SOYAD :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(115, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 27);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "TELEFON :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(65, 147);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(159, 27);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "TC KİMLİK NO :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(49, 177);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(175, 27);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "DOĞUM TARİHİ :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(135, 267);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(88, 27);
+            this.label5.TabIndex = 30;
+            this.label5.Text = "ADRES :";
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.DarkRed;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnClose.Location = new System.Drawing.Point(993, 12);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(25, 25);
+            this.btnClose.TabIndex = 44;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 7;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // btnara
+            // 
+            this.btnara.Location = new System.Drawing.Point(651, 92);
+            this.btnara.Name = "btnara";
+            this.btnara.Size = new System.Drawing.Size(89, 28);
+            this.btnara.TabIndex = 69;
+            this.btnara.Text = "ARA";
+            this.btnara.UseVisualStyleBackColor = true;
+            this.btnara.Click += new System.EventHandler(this.btnara_Click);
+            // 
+            // tbxara
+            // 
+            this.tbxara.Location = new System.Drawing.Point(545, 92);
+            this.tbxara.Multiline = true;
+            this.tbxara.Name = "tbxara";
+            this.tbxara.Size = new System.Drawing.Size(100, 27);
+            this.tbxara.TabIndex = 70;
+            // 
+            // bunifuCustomDataGrid1
+            // 
+            this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
+            this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SeaGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tcno,
+            this.name,
+            this.surname,
+            this.phone,
+            this.address});
+            this.bunifuCustomDataGrid1.DoubleBuffered = true;
+            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(545, 126);
+            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
+            this.bunifuCustomDataGrid1.ReadOnly = true;
+            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid1.RowHeadersWidth = 51;
+            this.bunifuCustomDataGrid1.RowTemplate.Height = 24;
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(463, 453);
+            this.bunifuCustomDataGrid1.TabIndex = 71;
+            // 
+            // tcno
+            // 
+            this.tcno.HeaderText = "TC";
+            this.tcno.MinimumWidth = 6;
+            this.tcno.Name = "tcno";
+            this.tcno.ReadOnly = true;
+            this.tcno.Width = 125;
+            // 
+            // name
+            // 
+            this.name.HeaderText = "AD";
+            this.name.MinimumWidth = 6;
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 125;
+            // 
+            // surname
+            // 
+            this.surname.HeaderText = "SOYAD";
+            this.surname.MinimumWidth = 6;
+            this.surname.Name = "surname";
+            this.surname.ReadOnly = true;
+            this.surname.Width = 125;
+            // 
+            // phone
+            // 
+            this.phone.HeaderText = "TELEFON";
+            this.phone.MinimumWidth = 6;
+            this.phone.Name = "phone";
+            this.phone.ReadOnly = true;
+            this.phone.Width = 125;
+            // 
+            // address
+            // 
+            this.address.HeaderText = "ADRES";
+            this.address.MinimumWidth = 6;
+            this.address.Name = "address";
+            this.address.ReadOnly = true;
+            this.address.Width = 125;
+            // 
+            // UyeGuncelle
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1030, 603);
+            this.Controls.Add(this.bunifuCustomDataGrid1);
+            this.Controls.Add(this.tbxara);
+            this.Controls.Add(this.btnara);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "UyeGuncelle";
+            this.Text = "UyeGuncelle";
+            this.Load += new System.EventHandler(this.UyeGuncelle_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label lbldtg;
+        private System.Windows.Forms.DateTimePicker dtpg;
+        private System.Windows.Forms.Label lblWarning;
+        private System.Windows.Forms.ComboBox gendercbxg;
+        private System.Windows.Forms.Label labeladresg;
+        private System.Windows.Forms.Label labelogrenimg;
+        private System.Windows.Forms.Label labelgenderg;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Label labeldtg;
+        private System.Windows.Forms.TextBox adtbxg;
+        private System.Windows.Forms.Label labeltcg;
+        private System.Windows.Forms.Label lblgender;
+        private System.Windows.Forms.Label labeltelg;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelsoyadg;
+        private System.Windows.Forms.TextBox soyadtbxg;
+        private System.Windows.Forms.Label labeladg;
+        private System.Windows.Forms.TextBox telefontbxg;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox tcnotbxg;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox adrestbxg;
+        private System.Windows.Forms.ComboBox ogrenimcbxg;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnClose;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.TextBox tbxara;
+        private System.Windows.Forms.Button btnara;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tcno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn surname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn address;
+    }
+}
