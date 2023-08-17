@@ -50,7 +50,7 @@ namespace Kutuphanecsharp
         void UyeData()
         {
             baglanti = new SQLiteConnection("Data Source=kihmed.db; Version=3");
-            da = new SQLiteDataAdapter("select ID,name,surname,phone,birthdate,phone,address from Uyeler", baglanti);
+            da = new SQLiteDataAdapter("select ID,name,surname,phone,address from Uyeler", baglanti);
             ds = new DataSet();
             baglanti.Open();
 
@@ -164,7 +164,7 @@ namespace Kutuphanecsharp
         private void tbxAraUye_TextChanged(object sender, EventArgs e)
         {
             baglanti.Open();
-            komut = new SQLiteCommand("select ID,name,surname,birthdate,phone,address from Uyeler where name Like '%" + tbxAraUye.Text + "%'", baglanti);
+            komut = new SQLiteCommand("select ID,name,surname,phone,address from Uyeler where name Like '%" + tbxAraUye.Text + "%'", baglanti);
             da = new SQLiteDataAdapter(komut);
             DataSet ds = new DataSet();
             da.Fill(ds);

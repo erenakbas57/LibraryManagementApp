@@ -54,7 +54,6 @@ namespace Kutuphanecsharp
                                 name text not null,
                                 surname text not null,
                                 phone text not null,
-                                education text not null,
                                 address text not null,
                                 okitaptoplam int not null
                                 );";
@@ -211,7 +210,7 @@ namespace Kutuphanecsharp
 
             Color color = SelectThemeColor();
 
-            //panelLogo.BackColor = ColorBrightness(color, -0.3);
+            panelUstSolMenu.BackColor = ColorBrightness(color, -0.3);
             panelUstMenu.BackColor = color ; 
 
         }
@@ -340,19 +339,19 @@ namespace Kutuphanecsharp
 
         private void btnMemberAdd_Click(object sender, EventArgs e)
         {
-            openChildForm(new UyeKayit());
+            openChildForm(new MemberAdd());
             hideSubMenu();
             lblName.Text = btnMemberAdd.Text;
         }
         private void btnMemberUpdate_Click(object sender, EventArgs e)
         {
-            openChildForm(new UyeGuncelle());
+            openChildForm(new MemberUpdate());
             hideSubMenu();
             lblName.Text = btnMemberUpdate.Text;
         }
         private void btnMemberSearch_Click(object sender, EventArgs e)
         {
-            openChildForm(new UyeAra());
+            openChildForm(new MemberSearch());
             hideSubMenu();
             lblName.Text = btnMemberSearch.Text;
         }

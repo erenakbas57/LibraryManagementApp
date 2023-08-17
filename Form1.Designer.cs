@@ -75,12 +75,12 @@ namespace Kutuphanecsharp
             // 
             // btnMenu
             // 
-            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnMenu.BackColor = System.Drawing.Color.Goldenrod;
             this.btnMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenu.FlatAppearance.BorderSize = 0;
             this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMenu.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnMenu.Location = new System.Drawing.Point(0, 110);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(246, 45);
@@ -91,13 +91,13 @@ namespace Kutuphanecsharp
             // 
             // btnBooks
             // 
-            this.btnBooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnBooks.BackColor = System.Drawing.Color.Goldenrod;
             this.btnBooks.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBooks.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBooks.FlatAppearance.BorderSize = 0;
             this.btnBooks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBooks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBooks.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBooks.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBooks.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBooks.Location = new System.Drawing.Point(0, 155);
             this.btnBooks.Name = "btnBooks";
@@ -111,7 +111,7 @@ namespace Kutuphanecsharp
             // 
             // PanelArayuz
             // 
-            this.PanelArayuz.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.PanelArayuz.BackColor = System.Drawing.Color.Goldenrod;
             this.PanelArayuz.Controls.Add(this.btnRezevasyon);
             this.PanelArayuz.Controls.Add(this.btnStatistics);
             this.PanelArayuz.Controls.Add(this.panelSettingsSubMenu);
@@ -125,21 +125,21 @@ namespace Kutuphanecsharp
             this.PanelArayuz.Controls.Add(this.btnMenu);
             this.PanelArayuz.Controls.Add(this.panelUstSolMenu);
             this.PanelArayuz.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelArayuz.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.PanelArayuz.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.PanelArayuz.Location = new System.Drawing.Point(0, 0);
             this.PanelArayuz.Name = "PanelArayuz";
-            this.PanelArayuz.Size = new System.Drawing.Size(246, 809);
+            this.PanelArayuz.Size = new System.Drawing.Size(246, 810);
             this.PanelArayuz.TabIndex = 11;
             // 
             // btnRezevasyon
             // 
-            this.btnRezevasyon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnRezevasyon.BackColor = System.Drawing.Color.Goldenrod;
             this.btnRezevasyon.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnRezevasyon.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRezevasyon.FlatAppearance.BorderSize = 0;
             this.btnRezevasyon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRezevasyon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnRezevasyon.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRezevasyon.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnRezevasyon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRezevasyon.Location = new System.Drawing.Point(0, 920);
             this.btnRezevasyon.Name = "btnRezevasyon";
@@ -153,13 +153,13 @@ namespace Kutuphanecsharp
             // 
             // btnStatistics
             // 
-            this.btnStatistics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnStatistics.BackColor = System.Drawing.Color.Goldenrod;
             this.btnStatistics.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnStatistics.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnStatistics.FlatAppearance.BorderSize = 0;
             this.btnStatistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStatistics.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnStatistics.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnStatistics.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnStatistics.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnStatistics.Location = new System.Drawing.Point(0, 875);
             this.btnStatistics.Name = "btnStatistics";
@@ -182,13 +182,13 @@ namespace Kutuphanecsharp
             // 
             // btnKitapAyarlari
             // 
-            this.btnKitapAyarlari.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnKitapAyarlari.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnKitapAyarlari.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnKitapAyarlari.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnKitapAyarlari.FlatAppearance.BorderSize = 0;
             this.btnKitapAyarlari.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKitapAyarlari.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKitapAyarlari.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnKitapAyarlari.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnKitapAyarlari.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKitapAyarlari.Location = new System.Drawing.Point(0, 0);
             this.btnKitapAyarlari.Name = "btnKitapAyarlari";
@@ -202,13 +202,13 @@ namespace Kutuphanecsharp
             // 
             // btnSettings
             // 
-            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnSettings.BackColor = System.Drawing.Color.Goldenrod;
             this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSettings.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSettings.FlatAppearance.BorderSize = 0;
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSettings.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSettings.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSettings.Location = new System.Drawing.Point(0, 785);
             this.btnSettings.Name = "btnSettings";
@@ -233,13 +233,13 @@ namespace Kutuphanecsharp
             // 
             // btnBufeKasa
             // 
-            this.btnBufeKasa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnBufeKasa.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnBufeKasa.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBufeKasa.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBufeKasa.FlatAppearance.BorderSize = 0;
             this.btnBufeKasa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBufeKasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBufeKasa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBufeKasa.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBufeKasa.Image = ((System.Drawing.Image)(resources.GetObject("btnBufeKasa.Image")));
             this.btnBufeKasa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBufeKasa.Location = new System.Drawing.Point(0, 90);
@@ -255,13 +255,13 @@ namespace Kutuphanecsharp
             // 
             // BtnBufeStok
             // 
-            this.BtnBufeStok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.BtnBufeStok.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.BtnBufeStok.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnBufeStok.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnBufeStok.FlatAppearance.BorderSize = 0;
             this.BtnBufeStok.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBufeStok.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnBufeStok.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnBufeStok.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.BtnBufeStok.Image = ((System.Drawing.Image)(resources.GetObject("BtnBufeStok.Image")));
             this.BtnBufeStok.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBufeStok.Location = new System.Drawing.Point(0, 45);
@@ -277,13 +277,13 @@ namespace Kutuphanecsharp
             // 
             // BtnBufeSatis
             // 
-            this.BtnBufeSatis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.BtnBufeSatis.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.BtnBufeSatis.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnBufeSatis.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnBufeSatis.FlatAppearance.BorderSize = 0;
             this.BtnBufeSatis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBufeSatis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnBufeSatis.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnBufeSatis.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.BtnBufeSatis.Image = ((System.Drawing.Image)(resources.GetObject("BtnBufeSatis.Image")));
             this.BtnBufeSatis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBufeSatis.Location = new System.Drawing.Point(0, 0);
@@ -299,13 +299,13 @@ namespace Kutuphanecsharp
             // 
             // btnBufe
             // 
-            this.btnBufe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnBufe.BackColor = System.Drawing.Color.Goldenrod;
             this.btnBufe.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBufe.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBufe.FlatAppearance.BorderSize = 0;
             this.btnBufe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBufe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBufe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBufe.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBufe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBufe.Location = new System.Drawing.Point(0, 605);
             this.btnBufe.Name = "btnBufe";
@@ -330,13 +330,13 @@ namespace Kutuphanecsharp
             // 
             // btnMemberSearch
             // 
-            this.btnMemberSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnMemberSearch.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnMemberSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMemberSearch.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMemberSearch.FlatAppearance.BorderSize = 0;
             this.btnMemberSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMemberSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMemberSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMemberSearch.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnMemberSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnMemberSearch.Image")));
             this.btnMemberSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMemberSearch.Location = new System.Drawing.Point(0, 90);
@@ -352,13 +352,13 @@ namespace Kutuphanecsharp
             // 
             // btnMemberUpdate
             // 
-            this.btnMemberUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnMemberUpdate.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnMemberUpdate.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMemberUpdate.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMemberUpdate.FlatAppearance.BorderSize = 0;
             this.btnMemberUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMemberUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMemberUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMemberUpdate.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnMemberUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnMemberUpdate.Image")));
             this.btnMemberUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMemberUpdate.Location = new System.Drawing.Point(0, 45);
@@ -374,13 +374,13 @@ namespace Kutuphanecsharp
             // 
             // btnMemberAdd
             // 
-            this.btnMemberAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnMemberAdd.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnMemberAdd.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMemberAdd.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMemberAdd.FlatAppearance.BorderSize = 0;
             this.btnMemberAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMemberAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMemberAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMemberAdd.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnMemberAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnMemberAdd.Image")));
             this.btnMemberAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMemberAdd.Location = new System.Drawing.Point(0, 0);
@@ -396,13 +396,13 @@ namespace Kutuphanecsharp
             // 
             // btnMembers
             // 
-            this.btnMembers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(79)))));
+            this.btnMembers.BackColor = System.Drawing.Color.Goldenrod;
             this.btnMembers.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMembers.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMembers.FlatAppearance.BorderSize = 0;
             this.btnMembers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMembers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMembers.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMembers.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnMembers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMembers.Location = new System.Drawing.Point(0, 425);
             this.btnMembers.Name = "btnMembers";
@@ -430,19 +430,19 @@ namespace Kutuphanecsharp
             // 
             // btnKitapGuncelle
             // 
-            this.btnKitapGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnKitapGuncelle.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnKitapGuncelle.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnKitapGuncelle.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnKitapGuncelle.FlatAppearance.BorderSize = 0;
             this.btnKitapGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKitapGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKitapGuncelle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnKitapGuncelle.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnKitapGuncelle.Image = ((System.Drawing.Image)(resources.GetObject("btnKitapGuncelle.Image")));
             this.btnKitapGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKitapGuncelle.Location = new System.Drawing.Point(0, 180);
             this.btnKitapGuncelle.Name = "btnKitapGuncelle";
             this.btnKitapGuncelle.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnKitapGuncelle.Size = new System.Drawing.Size(246, 25);
+            this.btnKitapGuncelle.Size = new System.Drawing.Size(246, 45);
             this.btnKitapGuncelle.TabIndex = 7;
             this.btnKitapGuncelle.Text = "Kitap Güncelle";
             this.btnKitapGuncelle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -452,13 +452,13 @@ namespace Kutuphanecsharp
             // 
             // btnBookLoan
             // 
-            this.btnBookLoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnBookLoan.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnBookLoan.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBookLoan.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBookLoan.FlatAppearance.BorderSize = 0;
             this.btnBookLoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookLoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBookLoan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBookLoan.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBookLoan.Image = ((System.Drawing.Image)(resources.GetObject("btnBookLoan.Image")));
             this.btnBookLoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBookLoan.Location = new System.Drawing.Point(0, 135);
@@ -474,13 +474,13 @@ namespace Kutuphanecsharp
             // 
             // btnBookLoan1
             // 
-            this.btnBookLoan1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnBookLoan1.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnBookLoan1.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBookLoan1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBookLoan1.FlatAppearance.BorderSize = 0;
             this.btnBookLoan1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookLoan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBookLoan1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBookLoan1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBookLoan1.Image = ((System.Drawing.Image)(resources.GetObject("btnBookLoan1.Image")));
             this.btnBookLoan1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBookLoan1.Location = new System.Drawing.Point(0, 90);
@@ -496,13 +496,13 @@ namespace Kutuphanecsharp
             // 
             // btnBookSearch
             // 
-            this.btnBookSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnBookSearch.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnBookSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBookSearch.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBookSearch.FlatAppearance.BorderSize = 0;
             this.btnBookSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBookSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBookSearch.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBookSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnBookSearch.Image")));
             this.btnBookSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBookSearch.Location = new System.Drawing.Point(0, 45);
@@ -518,13 +518,13 @@ namespace Kutuphanecsharp
             // 
             // btnBookAdd
             // 
-            this.btnBookAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(97)))), ((int)(((byte)(123)))));
+            this.btnBookAdd.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnBookAdd.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBookAdd.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBookAdd.FlatAppearance.BorderSize = 0;
             this.btnBookAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBookAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBookAdd.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnBookAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnBookAdd.Image")));
             this.btnBookAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBookAdd.Location = new System.Drawing.Point(0, 0);
@@ -542,7 +542,7 @@ namespace Kutuphanecsharp
             // panelUstSolMenu
             // 
             this.panelUstSolMenu.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelUstSolMenu.BackColor = System.Drawing.Color.DarkBlue;
+            this.panelUstSolMenu.BackColor = System.Drawing.Color.LightGreen;
             this.panelUstSolMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelUstSolMenu.Controls.Add(this.label2);
             this.panelUstSolMenu.Controls.Add(this.label1);
@@ -556,7 +556,7 @@ namespace Kutuphanecsharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(18, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 37);
@@ -568,7 +568,7 @@ namespace Kutuphanecsharp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(42, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 44);
@@ -578,7 +578,7 @@ namespace Kutuphanecsharp
             // 
             // panelUstMenu
             // 
-            this.panelUstMenu.BackColor = System.Drawing.Color.DarkBlue;
+            this.panelUstMenu.BackColor = System.Drawing.Color.LightGreen;
             this.panelUstMenu.Controls.Add(this.lblName);
             this.panelUstMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelUstMenu.Location = new System.Drawing.Point(246, 0);
@@ -590,7 +590,7 @@ namespace Kutuphanecsharp
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblName.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(434, 42);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(206, 44);
@@ -601,13 +601,13 @@ namespace Kutuphanecsharp
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.panel1.BackColor = System.Drawing.Color.Pink;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.btnKapat);
             this.panel1.Controls.Add(this.btnGecikme);
-            this.panel1.Location = new System.Drawing.Point(246, 110);
+            this.panel1.Location = new System.Drawing.Point(246, 111);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1036, 699);
+            this.panel1.Size = new System.Drawing.Size(1036, 863);
             this.panel1.TabIndex = 14;
             // 
             // label3
@@ -617,6 +617,7 @@ namespace Kutuphanecsharp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe Print", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(294, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(512, 70);
@@ -643,7 +644,7 @@ namespace Kutuphanecsharp
             this.btnGecikme.FlatAppearance.BorderSize = 0;
             this.btnGecikme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGecikme.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGecikme.Location = new System.Drawing.Point(0, 654);
+            this.btnGecikme.Location = new System.Drawing.Point(0, 818);
             this.btnGecikme.Name = "btnGecikme";
             this.btnGecikme.Size = new System.Drawing.Size(1036, 45);
             this.btnGecikme.TabIndex = 0;
@@ -656,7 +657,7 @@ namespace Kutuphanecsharp
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1282, 809);
+            this.ClientSize = new System.Drawing.Size(1282, 810);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelUstMenu);
             this.Controls.Add(this.PanelArayuz);

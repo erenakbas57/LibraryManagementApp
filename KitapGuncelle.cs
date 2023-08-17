@@ -47,7 +47,7 @@ namespace Kutuphanecsharp
 
         private void btnara_Click(object sender, EventArgs e)
         {
-            da = new SQLiteDataAdapter($"Select ID,name,surname,phone,tc,birthdate,gender,education,address from Uyeler where name Like '%" + tbxara.Text + "%'", baglanti);
+            da = new SQLiteDataAdapter($"Select ID,name,surname,phone,address from Uyeler where name Like '%" + tbxara.Text + "%'", baglanti);
             ds = new DataSet();
             baglanti.Open();
             da.Fill(ds, "kihmed");

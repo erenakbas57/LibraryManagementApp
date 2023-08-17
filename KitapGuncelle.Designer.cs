@@ -53,8 +53,6 @@ namespace Kutuphanecsharp
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dgw1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.tbxara = new System.Windows.Forms.TextBox();
-            this.btnara = new System.Windows.Forms.Button();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rafid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.book = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +60,8 @@ namespace Kutuphanecsharp
             this.publisher = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.durum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tbxara = new System.Windows.Forms.TextBox();
+            this.btnara = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgw1)).BeginInit();
             this.SuspendLayout();
@@ -122,6 +122,7 @@ namespace Kutuphanecsharp
             // 
             // cbxraf
             // 
+            this.cbxraf.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxraf.FormattingEnabled = true;
             this.cbxraf.Location = new System.Drawing.Point(160, 37);
             this.cbxraf.Name = "cbxraf";
@@ -130,6 +131,7 @@ namespace Kutuphanecsharp
             // 
             // cbxkategori
             // 
+            this.cbxkategori.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxkategori.FormattingEnabled = true;
             this.cbxkategori.Location = new System.Drawing.Point(161, 158);
             this.cbxkategori.Name = "cbxkategori";
@@ -148,7 +150,7 @@ namespace Kutuphanecsharp
             // 
             // btnUpdate
             // 
-            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnUpdate.Location = new System.Drawing.Point(266, 240);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
@@ -198,7 +200,7 @@ namespace Kutuphanecsharp
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label9.Location = new System.Drawing.Point(72, 35);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(61, 27);
@@ -220,7 +222,7 @@ namespace Kutuphanecsharp
             // tbxad
             // 
             this.tbxad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxad.Location = new System.Drawing.Point(160, 72);
             this.tbxad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxad.Name = "tbxad";
@@ -242,7 +244,7 @@ namespace Kutuphanecsharp
             // tbxyazar
             // 
             this.tbxyazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyazar.Location = new System.Drawing.Point(160, 101);
             this.tbxyazar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxyazar.MaxLength = 11;
@@ -253,7 +255,7 @@ namespace Kutuphanecsharp
             // tbxyayinevi
             // 
             this.tbxyayinevi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyayinevi.Location = new System.Drawing.Point(160, 129);
             this.tbxyayinevi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbxyayinevi.MaxLength = 11;
@@ -265,7 +267,7 @@ namespace Kutuphanecsharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(54, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 27);
@@ -276,7 +278,7 @@ namespace Kutuphanecsharp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(45, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 27);
@@ -287,7 +289,7 @@ namespace Kutuphanecsharp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Location = new System.Drawing.Point(19, 127);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 27);
@@ -298,7 +300,7 @@ namespace Kutuphanecsharp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label6.Location = new System.Drawing.Point(11, 157);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 27);
@@ -359,24 +361,6 @@ namespace Kutuphanecsharp
             this.dgw1.TabIndex = 51;
             this.dgw1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgw1_CellClick);
             // 
-            // tbxara
-            // 
-            this.tbxara.Location = new System.Drawing.Point(62, 23);
-            this.tbxara.Multiline = true;
-            this.tbxara.Name = "tbxara";
-            this.tbxara.Size = new System.Drawing.Size(100, 27);
-            this.tbxara.TabIndex = 72;
-            // 
-            // btnara
-            // 
-            this.btnara.Location = new System.Drawing.Point(168, 23);
-            this.btnara.Name = "btnara";
-            this.btnara.Size = new System.Drawing.Size(89, 28);
-            this.btnara.TabIndex = 71;
-            this.btnara.Text = "ARA";
-            this.btnara.UseVisualStyleBackColor = true;
-            this.btnara.Click += new System.EventHandler(this.btnara_Click);
-            // 
             // ID
             // 
             this.ID.DataPropertyName = "ID";
@@ -433,6 +417,26 @@ namespace Kutuphanecsharp
             this.durum.Name = "durum";
             this.durum.ReadOnly = true;
             this.durum.Visible = false;
+            // 
+            // tbxara
+            // 
+            this.tbxara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tbxara.Location = new System.Drawing.Point(62, 23);
+            this.tbxara.Multiline = true;
+            this.tbxara.Name = "tbxara";
+            this.tbxara.Size = new System.Drawing.Size(100, 27);
+            this.tbxara.TabIndex = 72;
+            // 
+            // btnara
+            // 
+            this.btnara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnara.Location = new System.Drawing.Point(168, 23);
+            this.btnara.Name = "btnara";
+            this.btnara.Size = new System.Drawing.Size(89, 28);
+            this.btnara.TabIndex = 71;
+            this.btnara.Text = "ARA";
+            this.btnara.UseVisualStyleBackColor = true;
+            this.btnara.Click += new System.EventHandler(this.btnara_Click);
             // 
             // KitapGuncelle
             // 

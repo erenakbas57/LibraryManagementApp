@@ -30,12 +30,12 @@ namespace Kutuphanecsharp
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -85,37 +85,37 @@ namespace Kutuphanecsharp
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(372, 437);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 17);
+            this.label1.Size = new System.Drawing.Size(32, 16);
             this.label1.TabIndex = 50;
             this.label1.Text = "AD :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(343, 488);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.Size = new System.Drawing.Size(60, 16);
             this.label2.TabIndex = 51;
             this.label2.Text = "SOYAD :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(326, 542);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 17);
+            this.label3.Size = new System.Drawing.Size(76, 16);
             this.label3.TabIndex = 52;
             this.label3.Text = "KİTAP ADI :";
             // 
             // uyeAdtbx
             // 
             this.uyeAdtbx.Enabled = false;
-            this.uyeAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.uyeAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeAdtbx.Location = new System.Drawing.Point(447, 431);
             this.uyeAdtbx.Multiline = true;
             this.uyeAdtbx.Name = "uyeAdtbx";
@@ -125,7 +125,7 @@ namespace Kutuphanecsharp
             // uyeSoyadtbx
             // 
             this.uyeSoyadtbx.Enabled = false;
-            this.uyeSoyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.uyeSoyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeSoyadtbx.Location = new System.Drawing.Point(447, 483);
             this.uyeSoyadtbx.Multiline = true;
             this.uyeSoyadtbx.Name = "uyeSoyadtbx";
@@ -135,7 +135,7 @@ namespace Kutuphanecsharp
             // kitapAdtbx
             // 
             this.kitapAdtbx.Enabled = false;
-            this.kitapAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.kitapAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.kitapAdtbx.Location = new System.Drawing.Point(447, 537);
             this.kitapAdtbx.Multiline = true;
             this.kitapAdtbx.Name = "kitapAdtbx";
@@ -145,7 +145,7 @@ namespace Kutuphanecsharp
             // btnKayit
             // 
             this.btnKayit.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnKayit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnKayit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnKayit.Location = new System.Drawing.Point(588, 471);
             this.btnKayit.Name = "btnKayit";
             this.btnKayit.Size = new System.Drawing.Size(137, 51);
@@ -161,7 +161,7 @@ namespace Kutuphanecsharp
             this.lblwarning.ForeColor = System.Drawing.Color.Red;
             this.lblwarning.Location = new System.Drawing.Point(607, 537);
             this.lblwarning.Name = "lblwarning";
-            this.lblwarning.Size = new System.Drawing.Size(0, 24);
+            this.lblwarning.Size = new System.Drawing.Size(0, 22);
             this.lblwarning.TabIndex = 57;
             this.lblwarning.Visible = false;
             // 
@@ -172,7 +172,7 @@ namespace Kutuphanecsharp
             this.lblad.ForeColor = System.Drawing.Color.Red;
             this.lblad.Location = new System.Drawing.Point(424, 432);
             this.lblad.Name = "lblad";
-            this.lblad.Size = new System.Drawing.Size(17, 24);
+            this.lblad.Size = new System.Drawing.Size(17, 22);
             this.lblad.TabIndex = 58;
             this.lblad.Text = "*";
             this.lblad.Visible = false;
@@ -184,7 +184,7 @@ namespace Kutuphanecsharp
             this.lblsoyad.ForeColor = System.Drawing.Color.Red;
             this.lblsoyad.Location = new System.Drawing.Point(424, 481);
             this.lblsoyad.Name = "lblsoyad";
-            this.lblsoyad.Size = new System.Drawing.Size(17, 24);
+            this.lblsoyad.Size = new System.Drawing.Size(17, 22);
             this.lblsoyad.TabIndex = 59;
             this.lblsoyad.Text = "*";
             this.lblsoyad.Visible = false;
@@ -196,14 +196,14 @@ namespace Kutuphanecsharp
             this.lblkitap.ForeColor = System.Drawing.Color.Red;
             this.lblkitap.Location = new System.Drawing.Point(424, 537);
             this.lblkitap.Name = "lblkitap";
-            this.lblkitap.Size = new System.Drawing.Size(17, 24);
+            this.lblkitap.Size = new System.Drawing.Size(17, 22);
             this.lblkitap.TabIndex = 60;
             this.lblkitap.Text = "*";
             this.lblkitap.Visible = false;
             // 
             // tbxAraKitap
             // 
-            this.tbxAraKitap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxAraKitap.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAraKitap.Location = new System.Drawing.Point(16, 48);
             this.tbxAraKitap.Name = "tbxAraKitap";
             this.tbxAraKitap.Size = new System.Drawing.Size(100, 22);
@@ -212,7 +212,7 @@ namespace Kutuphanecsharp
             // 
             // tbxAraUye
             // 
-            this.tbxAraUye.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxAraUye.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAraUye.Location = new System.Drawing.Point(16, 251);
             this.tbxAraUye.Name = "tbxAraUye";
             this.tbxAraUye.Size = new System.Drawing.Size(100, 22);
@@ -223,21 +223,21 @@ namespace Kutuphanecsharp
             // 
             this.dgwKitap.AllowUserToAddRows = false;
             this.dgwKitap.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dgwKitap.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgwKitap.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgwKitap.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgwKitap.BackgroundColor = System.Drawing.Color.White;
             this.dgwKitap.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgwKitap.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgwKitap.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.2F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgwKitap.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.2F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgwKitap.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgwKitap.ColumnHeadersHeight = 40;
             this.dgwKitap.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.rafid,
@@ -245,14 +245,14 @@ namespace Kutuphanecsharp
             this.author,
             this.publisher,
             this.durum});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgwKitap.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgwKitap.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgwKitap.DoubleBuffered = true;
             this.dgwKitap.EnableHeadersVisualStyles = false;
             this.dgwKitap.GridColor = System.Drawing.Color.WhiteSmoke;
@@ -320,21 +320,21 @@ namespace Kutuphanecsharp
             // 
             this.dgwUye.AllowUserToAddRows = false;
             this.dgwUye.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dgwUye.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgwUye.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgwUye.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgwUye.BackgroundColor = System.Drawing.Color.White;
             this.dgwUye.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgwUye.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgwUye.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.2F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgwUye.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.2F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgwUye.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgwUye.ColumnHeadersHeight = 40;
             this.dgwUye.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -343,14 +343,14 @@ namespace Kutuphanecsharp
             this.birthdate,
             this.phone,
             this.address});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgwUye.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgwUye.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgwUye.DoubleBuffered = true;
             this.dgwUye.EnableHeadersVisualStyles = false;
             this.dgwUye.GridColor = System.Drawing.Color.WhiteSmoke;

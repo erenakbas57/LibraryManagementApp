@@ -74,18 +74,18 @@ namespace Kutuphanecsharp
             // 
             // btnKayit
             // 
-            this.btnKayit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnKayit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnKayit.Location = new System.Drawing.Point(573, 441);
             this.btnKayit.Name = "btnKayit";
             this.btnKayit.Size = new System.Drawing.Size(137, 51);
             this.btnKayit.TabIndex = 63;
-            this.btnKayit.Text = "ÖDÜNÇ AL";
+            this.btnKayit.Text = "TESLİM AL";
             this.btnKayit.UseVisualStyleBackColor = true;
             this.btnKayit.Click += new System.EventHandler(this.btnKayit_Click);
             // 
             // kitapAdtbx
             // 
-            this.kitapAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.kitapAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.kitapAdtbx.Location = new System.Drawing.Point(420, 480);
             this.kitapAdtbx.Multiline = true;
             this.kitapAdtbx.Name = "kitapAdtbx";
@@ -94,7 +94,7 @@ namespace Kutuphanecsharp
             // 
             // uyeSoyadtbx
             // 
-            this.uyeSoyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.uyeSoyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeSoyadtbx.Location = new System.Drawing.Point(420, 426);
             this.uyeSoyadtbx.Multiline = true;
             this.uyeSoyadtbx.Name = "uyeSoyadtbx";
@@ -103,7 +103,7 @@ namespace Kutuphanecsharp
             // 
             // uyeAdtbx
             // 
-            this.uyeAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.uyeAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeAdtbx.Location = new System.Drawing.Point(420, 374);
             this.uyeAdtbx.Multiline = true;
             this.uyeAdtbx.Name = "uyeAdtbx";
@@ -113,36 +113,36 @@ namespace Kutuphanecsharp
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(299, 485);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 17);
+            this.label3.Size = new System.Drawing.Size(76, 16);
             this.label3.TabIndex = 59;
             this.label3.Text = "KİTAP ADI :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(316, 431);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.Size = new System.Drawing.Size(60, 16);
             this.label2.TabIndex = 58;
             this.label2.Text = "SOYAD :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(345, 380);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 17);
+            this.label1.Size = new System.Drawing.Size(32, 16);
             this.label1.TabIndex = 57;
             this.label1.Text = "AD :";
             // 
             // tbxAra
             // 
-            this.tbxAra.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxAra.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAra.Location = new System.Drawing.Point(439, 42);
             this.tbxAra.Name = "tbxAra";
             this.tbxAra.Size = new System.Drawing.Size(123, 22);

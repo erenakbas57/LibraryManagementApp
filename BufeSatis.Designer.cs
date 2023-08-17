@@ -60,7 +60,7 @@ namespace Kutuphanecsharp
             // lbxAd
             // 
             this.lbxAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxAd.FormattingEnabled = true;
             this.lbxAd.ItemHeight = 20;
             this.lbxAd.Location = new System.Drawing.Point(79, 77);
@@ -71,7 +71,7 @@ namespace Kutuphanecsharp
             // lbxAdet
             // 
             this.lbxAdet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbxAdet.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbxAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxAdet.FormattingEnabled = true;
             this.lbxAdet.ItemHeight = 20;
             this.lbxAdet.Location = new System.Drawing.Point(288, 77);
@@ -82,7 +82,7 @@ namespace Kutuphanecsharp
             // cbxAd
             // 
             this.cbxAd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxAd.FormattingEnabled = true;
             this.cbxAd.Location = new System.Drawing.Point(79, 373);
             this.cbxAd.Name = "cbxAd";
@@ -92,6 +92,7 @@ namespace Kutuphanecsharp
             // 
             // nudAdet
             // 
+            this.nudAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.nudAdet.Location = new System.Drawing.Point(288, 373);
             this.nudAdet.Maximum = new decimal(new int[] {
             100000,
@@ -105,7 +106,7 @@ namespace Kutuphanecsharp
             // btnEkle
             // 
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnEkle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEkle.Location = new System.Drawing.Point(288, 412);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(97, 59);
@@ -117,7 +118,7 @@ namespace Kutuphanecsharp
             // btnTemizle
             // 
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTemizle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnTemizle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnTemizle.Location = new System.Drawing.Point(79, 412);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(177, 59);
@@ -151,7 +152,7 @@ namespace Kutuphanecsharp
             // lbxFiyat
             // 
             this.lbxFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbxFiyat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbxFiyat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxFiyat.FormattingEnabled = true;
             this.lbxFiyat.ItemHeight = 20;
             this.lbxFiyat.Location = new System.Drawing.Point(415, 77);
@@ -162,7 +163,7 @@ namespace Kutuphanecsharp
             // btnSatis
             // 
             this.btnSatis.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSatis.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSatis.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSatis.Location = new System.Drawing.Point(415, 412);
             this.btnSatis.Name = "btnSatis";
             this.btnSatis.Size = new System.Drawing.Size(126, 59);
@@ -187,7 +188,7 @@ namespace Kutuphanecsharp
             this.Controls.Add(this.lbxAdet);
             this.Controls.Add(this.lbxAd);
             this.Controls.Add(this.btnClose);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BufeSatis";
             this.Text = "BufeSatis";

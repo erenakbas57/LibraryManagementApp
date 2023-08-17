@@ -83,7 +83,7 @@ namespace Kutuphanecsharp
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(240, 510);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 32);
+            this.label1.Size = new System.Drawing.Size(205, 32);
             this.label1.TabIndex = 52;
             this.label1.Text = "Günlük Satış :";
             // 
@@ -94,7 +94,7 @@ namespace Kutuphanecsharp
             this.lblgunluk.ForeColor = System.Drawing.Color.LimeGreen;
             this.lblgunluk.Location = new System.Drawing.Point(452, 510);
             this.lblgunluk.Name = "lblgunluk";
-            this.lblgunluk.Size = new System.Drawing.Size(32, 32);
+            this.lblgunluk.Size = new System.Drawing.Size(31, 32);
             this.lblgunluk.TabIndex = 53;
             this.lblgunluk.Text = "0";
             // 
@@ -105,7 +105,7 @@ namespace Kutuphanecsharp
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(581, 510);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 32);
+            this.label5.Size = new System.Drawing.Size(174, 32);
             this.label5.TabIndex = 56;
             this.label5.Text = "Aylık Satış :";
             // 
@@ -116,7 +116,7 @@ namespace Kutuphanecsharp
             this.lblaylik.ForeColor = System.Drawing.Color.LimeGreen;
             this.lblaylik.Location = new System.Drawing.Point(762, 510);
             this.lblaylik.Name = "lblaylik";
-            this.lblaylik.Size = new System.Drawing.Size(32, 32);
+            this.lblaylik.Size = new System.Drawing.Size(31, 32);
             this.lblaylik.TabIndex = 57;
             this.lblaylik.Text = "0";
             // 
@@ -155,7 +155,7 @@ namespace Kutuphanecsharp
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(225, 359);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 24);
+            this.label3.Size = new System.Drawing.Size(79, 22);
             this.label3.TabIndex = 62;
             this.label3.Text = "arasında";
             // 
@@ -174,7 +174,7 @@ namespace Kutuphanecsharp
             // btnHesapla
             // 
             this.btnHesapla.FlatAppearance.BorderSize = 0;
-            this.btnHesapla.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHesapla.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnHesapla.Location = new System.Drawing.Point(135, 409);
             this.btnHesapla.Name = "btnHesapla";
             this.btnHesapla.Size = new System.Drawing.Size(84, 27);
@@ -185,7 +185,7 @@ namespace Kutuphanecsharp
             // 
             // btnCiroEkle
             // 
-            this.btnCiroEkle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCiroEkle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCiroEkle.Location = new System.Drawing.Point(710, 354);
             this.btnCiroEkle.Name = "btnCiroEkle";
             this.btnCiroEkle.Size = new System.Drawing.Size(155, 43);
@@ -199,7 +199,7 @@ namespace Kutuphanecsharp
             this.lbltarih.AutoSize = true;
             this.lbltarih.Location = new System.Drawing.Point(972, 577);
             this.lbltarih.Name = "lbltarih";
-            this.lbltarih.Size = new System.Drawing.Size(48, 17);
+            this.lbltarih.Size = new System.Drawing.Size(46, 16);
             this.lbltarih.TabIndex = 68;
             this.lbltarih.Text = "SİLME";
             this.lbltarih.Visible = false;
@@ -237,7 +237,7 @@ namespace Kutuphanecsharp
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -317,7 +317,7 @@ namespace Kutuphanecsharp
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -375,7 +375,7 @@ namespace Kutuphanecsharp
             this.Controls.Add(this.lblgunluk);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BufeKasa";
             this.Text = "BufeKasa";

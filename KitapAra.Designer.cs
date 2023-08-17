@@ -72,7 +72,7 @@ namespace Kutuphanecsharp
             // 
             // tbxSearch
             // 
-            this.tbxSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxSearch.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxSearch.Location = new System.Drawing.Point(33, 21);
             this.tbxSearch.Name = "tbxSearch";
             this.tbxSearch.Size = new System.Drawing.Size(181, 22);
@@ -82,7 +82,7 @@ namespace Kutuphanecsharp
             // 
             this.rbtnName.AutoSize = true;
             this.rbtnName.Font = new System.Drawing.Font("Perpetua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rbtnName.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rbtnName.Location = new System.Drawing.Point(33, 67);
             this.rbtnName.Name = "rbtnName";
             this.rbtnName.Size = new System.Drawing.Size(139, 24);
@@ -95,7 +95,7 @@ namespace Kutuphanecsharp
             // 
             this.rbtnAuthor.AutoSize = true;
             this.rbtnAuthor.Font = new System.Drawing.Font("Perpetua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnAuthor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rbtnAuthor.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rbtnAuthor.Location = new System.Drawing.Point(33, 112);
             this.rbtnAuthor.Name = "rbtnAuthor";
             this.rbtnAuthor.Size = new System.Drawing.Size(151, 24);
@@ -108,7 +108,7 @@ namespace Kutuphanecsharp
             // 
             this.btnSearch.Enabled = false;
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSearch.Location = new System.Drawing.Point(59, 198);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(104, 37);
@@ -121,7 +121,7 @@ namespace Kutuphanecsharp
             // 
             this.rbtnCategory.AutoSize = true;
             this.rbtnCategory.Font = new System.Drawing.Font("Perpetua", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnCategory.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rbtnCategory.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rbtnCategory.Location = new System.Drawing.Point(33, 154);
             this.rbtnCategory.Name = "rbtnCategory";
             this.rbtnCategory.Size = new System.Drawing.Size(178, 24);
@@ -147,7 +147,7 @@ namespace Kutuphanecsharp
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDelete.Location = new System.Drawing.Point(751, 220);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(136, 57);
@@ -158,7 +158,7 @@ namespace Kutuphanecsharp
             // 
             // tbxArama
             // 
-            this.tbxArama.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxArama.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxArama.Location = new System.Drawing.Point(751, 165);
             this.tbxArama.Multiline = true;
             this.tbxArama.Name = "tbxArama";
@@ -169,7 +169,7 @@ namespace Kutuphanecsharp
             // btnListele
             // 
             this.btnListele.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListele.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnListele.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnListele.Location = new System.Drawing.Point(442, 236);
             this.btnListele.Name = "btnListele";
             this.btnListele.Size = new System.Drawing.Size(124, 44);

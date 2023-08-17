@@ -53,7 +53,7 @@ namespace Kutuphanecsharp
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Location = new System.Drawing.Point(171, 326);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 46);
@@ -66,7 +66,7 @@ namespace Kutuphanecsharp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.Location = new System.Drawing.Point(40, 40);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(131, 25);
@@ -77,7 +77,7 @@ namespace Kutuphanecsharp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label6.Location = new System.Drawing.Point(75, 80);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 25);
@@ -88,7 +88,7 @@ namespace Kutuphanecsharp
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label7.Location = new System.Drawing.Point(47, 160);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(124, 25);
@@ -97,7 +97,7 @@ namespace Kutuphanecsharp
             // 
             // tbxad
             // 
-            this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxad.Location = new System.Drawing.Point(193, 40);
             this.tbxad.Name = "tbxad";
             this.tbxad.Size = new System.Drawing.Size(146, 22);
@@ -105,7 +105,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyazar
             // 
-            this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyazar.Location = new System.Drawing.Point(193, 80);
             this.tbxyazar.Name = "tbxyazar";
             this.tbxyazar.Size = new System.Drawing.Size(146, 22);
@@ -113,7 +113,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyayinevi
             // 
-            this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyayinevi.Location = new System.Drawing.Point(193, 160);
             this.tbxyayinevi.Name = "tbxyayinevi";
             this.tbxyayinevi.Size = new System.Drawing.Size(146, 22);
@@ -122,7 +122,7 @@ namespace Kutuphanecsharp
             // rafcbx
             // 
             this.rafcbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.rafcbx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rafcbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rafcbx.FormattingEnabled = true;
             this.rafcbx.Location = new System.Drawing.Point(192, 201);
             this.rafcbx.Name = "rafcbx";
@@ -133,7 +133,7 @@ namespace Kutuphanecsharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(104, 201);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 25);
@@ -216,7 +216,7 @@ namespace Kutuphanecsharp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Location = new System.Drawing.Point(35, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 25);
@@ -229,7 +229,7 @@ namespace Kutuphanecsharp
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnClose.Location = new System.Drawing.Point(975, 12);
+            this.btnClose.Location = new System.Drawing.Point(993, 12);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 45;
@@ -240,7 +240,7 @@ namespace Kutuphanecsharp
             // cbxCategory
             // 
             this.cbxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxCategory.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.cbxCategory.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxCategory.FormattingEnabled = true;
             this.cbxCategory.Location = new System.Drawing.Point(192, 120);
             this.cbxCategory.Name = "cbxCategory";
@@ -250,9 +250,10 @@ namespace Kutuphanecsharp
             // rafisimlbl
             // 
             this.rafisimlbl.AutoSize = true;
+            this.rafisimlbl.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rafisimlbl.Location = new System.Drawing.Point(348, 201);
             this.rafisimlbl.Name = "rafisimlbl";
-            this.rafisimlbl.Size = new System.Drawing.Size(0, 17);
+            this.rafisimlbl.Size = new System.Drawing.Size(0, 16);
             this.rafisimlbl.TabIndex = 47;
             this.rafisimlbl.Visible = false;
             // 
