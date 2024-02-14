@@ -30,9 +30,9 @@ namespace Kutuphanecsharp
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnClose = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -121,6 +121,7 @@ namespace Kutuphanecsharp
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LavenderBlush;
             this.groupBox1.Controls.Add(this.lbladet);
             this.groupBox1.Controls.Add(this.lblwarning);
             this.groupBox1.Controls.Add(this.lblfiyat);
@@ -179,6 +180,7 @@ namespace Kutuphanecsharp
             // 
             // BtnAdd
             // 
+            this.BtnAdd.BackColor = System.Drawing.Color.White;
             this.BtnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAdd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnAdd.Location = new System.Drawing.Point(115, 222);
@@ -186,7 +188,7 @@ namespace Kutuphanecsharp
             this.BtnAdd.Size = new System.Drawing.Size(165, 32);
             this.BtnAdd.TabIndex = 62;
             this.BtnAdd.Text = "Ürün Ekle";
-            this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAdd.UseVisualStyleBackColor = false;
             this.BtnAdd.Click += new System.EventHandler(this.tbxAdd_Click);
             // 
             // lblad
@@ -203,6 +205,7 @@ namespace Kutuphanecsharp
             // 
             // tbxFiyat
             // 
+            this.tbxFiyat.BackColor = System.Drawing.Color.White;
             this.tbxFiyat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxFiyat.Location = new System.Drawing.Point(139, 85);
             this.tbxFiyat.Name = "tbxFiyat";
@@ -211,6 +214,7 @@ namespace Kutuphanecsharp
             // 
             // tbxAd
             // 
+            this.tbxAd.BackColor = System.Drawing.Color.White;
             this.tbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAd.Location = new System.Drawing.Point(139, 36);
             this.tbxAd.Name = "tbxAd";
@@ -219,6 +223,7 @@ namespace Kutuphanecsharp
             // 
             // nudAdet
             // 
+            this.nudAdet.BackColor = System.Drawing.Color.White;
             this.nudAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.nudAdet.Location = new System.Drawing.Point(139, 141);
             this.nudAdet.Name = "nudAdet";
@@ -227,6 +232,7 @@ namespace Kutuphanecsharp
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.LavenderBlush;
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
@@ -286,6 +292,7 @@ namespace Kutuphanecsharp
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.White;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnUpdate.Location = new System.Drawing.Point(115, 222);
@@ -293,7 +300,7 @@ namespace Kutuphanecsharp
             this.btnUpdate.Size = new System.Drawing.Size(165, 32);
             this.btnUpdate.TabIndex = 62;
             this.btnUpdate.Text = "Ürün Güncelle";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label7
@@ -310,6 +317,7 @@ namespace Kutuphanecsharp
             // 
             // tbxgFiyat
             // 
+            this.tbxgFiyat.BackColor = System.Drawing.Color.White;
             this.tbxgFiyat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxgFiyat.Location = new System.Drawing.Point(139, 85);
             this.tbxgFiyat.Name = "tbxgFiyat";
@@ -318,6 +326,7 @@ namespace Kutuphanecsharp
             // 
             // tbxgAd
             // 
+            this.tbxgAd.BackColor = System.Drawing.Color.White;
             this.tbxgAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxgAd.Location = new System.Drawing.Point(139, 36);
             this.tbxgAd.Name = "tbxgAd";
@@ -326,6 +335,7 @@ namespace Kutuphanecsharp
             // 
             // nudgAdet
             // 
+            this.nudgAdet.BackColor = System.Drawing.Color.White;
             this.nudgAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.nudgAdet.Location = new System.Drawing.Point(139, 141);
             this.nudgAdet.Name = "nudgAdet";
@@ -367,6 +377,7 @@ namespace Kutuphanecsharp
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.White;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDelete.Location = new System.Drawing.Point(441, 283);
@@ -374,42 +385,42 @@ namespace Kutuphanecsharp
             this.btnDelete.Size = new System.Drawing.Size(75, 39);
             this.btnDelete.TabIndex = 65;
             this.btnDelete.Text = "Sil";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgw1
             // 
             this.dgw1.AllowUserToAddRows = false;
             this.dgw1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dgw1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgw1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgw1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw1.BackgroundColor = System.Drawing.Color.White;
             this.dgw1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgw1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgw1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgw1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(122)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgw1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgw1.ColumnHeadersHeight = 40;
             this.dgw1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.urunad,
             this.fiyat,
             this.adet});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgw1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(226)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgw1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgw1.DoubleBuffered = true;
             this.dgw1.EnableHeadersVisualStyles = false;
             this.dgw1.GridColor = System.Drawing.Color.WhiteSmoke;
@@ -469,6 +480,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw1);
             this.Controls.Add(this.btnDelete);

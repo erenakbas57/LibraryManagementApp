@@ -38,17 +38,18 @@ namespace Kutuphanecsharp
             this.label1 = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dgw1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.surname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgw1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbxSearch
             // 
+            this.tbxSearch.BackColor = System.Drawing.Color.White;
             this.tbxSearch.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxSearch.Location = new System.Drawing.Point(181, 56);
             this.tbxSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -81,6 +82,7 @@ namespace Kutuphanecsharp
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.White;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDelete.Location = new System.Drawing.Point(754, 56);
@@ -88,7 +90,7 @@ namespace Kutuphanecsharp
             this.btnDelete.Size = new System.Drawing.Size(241, 42);
             this.btnDelete.TabIndex = 45;
             this.btnDelete.Text = "Üye Sil";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgw1
@@ -142,11 +144,6 @@ namespace Kutuphanecsharp
             this.dgw1.Size = new System.Drawing.Size(963, 321);
             this.dgw1.TabIndex = 67;
             // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 7;
-            this.bunifuElipse1.TargetControl = this;
-            // 
             // ID
             // 
             this.ID.DataPropertyName = "ID";
@@ -187,10 +184,16 @@ namespace Kutuphanecsharp
             this.address.Name = "address";
             this.address.ReadOnly = true;
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 7;
+            this.bunifuElipse1.TargetControl = this;
+            // 
             // MemberSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw1);
             this.Controls.Add(this.btnDelete);

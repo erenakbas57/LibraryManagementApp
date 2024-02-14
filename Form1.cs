@@ -113,7 +113,7 @@ namespace Kutuphanecsharp
                 komut.ExecuteNonQuery();
 
                 #endregion
-
+                    
                 #region Kasa Tablosu
 
                 string kasa = @"create table kasa(
@@ -190,6 +190,36 @@ namespace Kutuphanecsharp
                 subMenu.Visible = false;
             }
         }
+
+        public void color_change(Color color)
+        {
+            panelUstSolMenu.BackColor = ColorBrightness(color, -0.5);
+            panelUstMenu.BackColor = color;
+            btnMenu.BackColor = color;
+            btnBooks.BackColor = color;
+            btnMembers.BackColor = color;
+            btnBufe.BackColor = color;
+            btnSettings.BackColor = color;
+            btnStatistics.BackColor = color;
+            btnRezevasyon.BackColor = color;
+            PanelArayuz.BackColor = color;
+
+            btnBookAdd.BackColor = ColorBrightness(color, +0.3);
+            btnBookLoan.BackColor = ColorBrightness(color, +0.3);
+            btnBookSearch.BackColor = ColorBrightness(color, +0.3);
+            btnBookLoan1.BackColor = ColorBrightness(color, +0.3);
+            btnKitapGuncelle.BackColor = ColorBrightness(color, +0.3);
+
+            btnMemberAdd.BackColor = ColorBrightness(color, +0.3);
+            btnMemberUpdate.BackColor = ColorBrightness(color, +0.3);
+            btnMemberSearch.BackColor = ColorBrightness(color, +0.3);
+
+            btnBufeKasa.BackColor = ColorBrightness(color, +0.3);
+            BtnBufeSatis.BackColor = ColorBrightness(color, +0.3);
+            BtnBufeStok.BackColor = ColorBrightness(color, +0.3);
+
+            btnKitapAyarlari.BackColor = ColorBrightness(color, +0.3);
+        }
         public void openChildForm(Form childForm)
         {
             if (activeForm != null)
@@ -209,9 +239,7 @@ namespace Kutuphanecsharp
             btnKapat.Visible = false;
 
             Color color = SelectThemeColor();
-
-            panelUstSolMenu.BackColor = ColorBrightness(color, -0.3);
-            panelUstMenu.BackColor = color ; 
+            color_change(color);
 
         }
 
@@ -418,8 +446,7 @@ namespace Kutuphanecsharp
 
             Color color = SelectThemeColor();
 
-            panelUstSolMenu.BackColor = ColorBrightness(color, -0.3);
-            panelUstMenu.BackColor = color;
+            color_change(color);
 
             Alert();
 

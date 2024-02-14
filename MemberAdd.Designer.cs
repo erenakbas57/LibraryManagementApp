@@ -118,6 +118,7 @@
             // 
             // soyadtbx
             // 
+            this.soyadtbx.BackColor = System.Drawing.Color.White;
             this.soyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.soyadtbx.Location = new System.Drawing.Point(203, 97);
             this.soyadtbx.Name = "soyadtbx";
@@ -126,6 +127,7 @@
             // 
             // adtbx
             // 
+            this.adtbx.BackColor = System.Drawing.Color.White;
             this.adtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.adtbx.Location = new System.Drawing.Point(203, 57);
             this.adtbx.Name = "adtbx";
@@ -167,6 +169,7 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Location = new System.Drawing.Point(202, 423);
@@ -174,11 +177,12 @@
             this.button1.Size = new System.Drawing.Size(160, 46);
             this.button1.TabIndex = 48;
             this.button1.Text = "Üye Ekle";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // adrestbx
             // 
+            this.adrestbx.BackColor = System.Drawing.Color.White;
             this.adrestbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.adrestbx.Location = new System.Drawing.Point(207, 177);
             this.adrestbx.Name = "adrestbx";
@@ -201,6 +205,7 @@
             // 
             // telefontbx
             // 
+            this.telefontbx.BackColor = System.Drawing.Color.White;
             this.telefontbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.telefontbx.Location = new System.Drawing.Point(203, 135);
             this.telefontbx.Name = "telefontbx";
@@ -210,6 +215,7 @@
             // 
             // MemberAdd
             // 
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.telefontbx);
             this.Controls.Add(this.close);

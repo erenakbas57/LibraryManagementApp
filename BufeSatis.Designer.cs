@@ -59,6 +59,7 @@ namespace Kutuphanecsharp
             // 
             // lbxAd
             // 
+            this.lbxAd.BackColor = System.Drawing.Color.White;
             this.lbxAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxAd.FormattingEnabled = true;
@@ -70,6 +71,7 @@ namespace Kutuphanecsharp
             // 
             // lbxAdet
             // 
+            this.lbxAdet.BackColor = System.Drawing.Color.White;
             this.lbxAdet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbxAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxAdet.FormattingEnabled = true;
@@ -81,6 +83,7 @@ namespace Kutuphanecsharp
             // 
             // cbxAd
             // 
+            this.cbxAd.BackColor = System.Drawing.Color.White;
             this.cbxAd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxAd.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxAd.FormattingEnabled = true;
@@ -92,6 +95,7 @@ namespace Kutuphanecsharp
             // 
             // nudAdet
             // 
+            this.nudAdet.BackColor = System.Drawing.Color.White;
             this.nudAdet.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.nudAdet.Location = new System.Drawing.Point(288, 373);
             this.nudAdet.Maximum = new decimal(new int[] {
@@ -105,6 +109,7 @@ namespace Kutuphanecsharp
             // 
             // btnEkle
             // 
+            this.btnEkle.BackColor = System.Drawing.Color.White;
             this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEkle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEkle.Location = new System.Drawing.Point(288, 412);
@@ -112,11 +117,12 @@ namespace Kutuphanecsharp
             this.btnEkle.Size = new System.Drawing.Size(97, 59);
             this.btnEkle.TabIndex = 55;
             this.btnEkle.Text = "Ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnTemizle
             // 
+            this.btnTemizle.BackColor = System.Drawing.Color.White;
             this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTemizle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnTemizle.Location = new System.Drawing.Point(79, 412);
@@ -124,7 +130,7 @@ namespace Kutuphanecsharp
             this.btnTemizle.Size = new System.Drawing.Size(177, 59);
             this.btnTemizle.TabIndex = 56;
             this.btnTemizle.Text = "Temizle";
-            this.btnTemizle.UseVisualStyleBackColor = true;
+            this.btnTemizle.UseVisualStyleBackColor = false;
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // lblToplam
@@ -151,6 +157,7 @@ namespace Kutuphanecsharp
             // 
             // lbxFiyat
             // 
+            this.lbxFiyat.BackColor = System.Drawing.Color.White;
             this.lbxFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbxFiyat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbxFiyat.FormattingEnabled = true;
@@ -162,6 +169,7 @@ namespace Kutuphanecsharp
             // 
             // btnSatis
             // 
+            this.btnSatis.BackColor = System.Drawing.Color.White;
             this.btnSatis.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSatis.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSatis.Location = new System.Drawing.Point(415, 412);
@@ -169,13 +177,14 @@ namespace Kutuphanecsharp
             this.btnSatis.Size = new System.Drawing.Size(126, 59);
             this.btnSatis.TabIndex = 60;
             this.btnSatis.Text = "Satış";
-            this.btnSatis.UseVisualStyleBackColor = true;
+            this.btnSatis.UseVisualStyleBackColor = false;
             this.btnSatis.Click += new System.EventHandler(this.btnSatis_Click);
             // 
             // BufeSatis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.btnSatis);
             this.Controls.Add(this.lbxFiyat);

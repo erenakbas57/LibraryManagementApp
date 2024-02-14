@@ -32,11 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnClose = new System.Windows.Forms.Button();
             this.dgw1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.tcno = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.surname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbxara = new System.Windows.Forms.TextBox();
             this.btnara = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -54,6 +49,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.surname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgw1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -93,7 +93,7 @@
             this.dgw1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgw1.ColumnHeadersHeight = 29;
             this.dgw1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.tcno,
+            this.ID,
             this.name,
             this.surname,
             this.phone,
@@ -113,43 +113,9 @@
             this.dgw1.TabIndex = 75;
             this.dgw1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgw1_CellClick);
             // 
-            // tcno
-            // 
-            this.tcno.HeaderText = "TC";
-            this.tcno.MinimumWidth = 6;
-            this.tcno.Name = "tcno";
-            this.tcno.ReadOnly = true;
-            // 
-            // name
-            // 
-            this.name.HeaderText = "AD";
-            this.name.MinimumWidth = 6;
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            // 
-            // surname
-            // 
-            this.surname.HeaderText = "SOYAD";
-            this.surname.MinimumWidth = 6;
-            this.surname.Name = "surname";
-            this.surname.ReadOnly = true;
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "TELEFON";
-            this.phone.MinimumWidth = 6;
-            this.phone.Name = "phone";
-            this.phone.ReadOnly = true;
-            // 
-            // address
-            // 
-            this.address.HeaderText = "ADRES";
-            this.address.MinimumWidth = 6;
-            this.address.Name = "address";
-            this.address.ReadOnly = true;
-            // 
             // tbxara
             // 
+            this.tbxara.BackColor = System.Drawing.Color.White;
             this.tbxara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxara.Location = new System.Drawing.Point(550, 57);
             this.tbxara.Multiline = true;
@@ -159,17 +125,19 @@
             // 
             // btnara
             // 
+            this.btnara.BackColor = System.Drawing.Color.White;
             this.btnara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnara.Location = new System.Drawing.Point(656, 57);
             this.btnara.Name = "btnara";
             this.btnara.Size = new System.Drawing.Size(89, 28);
             this.btnara.TabIndex = 73;
             this.btnara.Text = "ARA";
-            this.btnara.UseVisualStyleBackColor = true;
+            this.btnara.UseVisualStyleBackColor = false;
             this.btnara.Click += new System.EventHandler(this.btnara_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LavenderBlush;
             this.groupBox1.Controls.Add(this.lblWarning);
             this.groupBox1.Controls.Add(this.labeladresg);
             this.groupBox1.Controls.Add(this.btnUpdate);
@@ -219,6 +187,7 @@
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.White;
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnUpdate.Location = new System.Drawing.Point(307, 455);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -226,11 +195,12 @@
             this.btnUpdate.Size = new System.Drawing.Size(121, 39);
             this.btnUpdate.TabIndex = 40;
             this.btnUpdate.Text = "GÜNCELLE";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // adtbxg
             // 
+            this.adtbxg.BackColor = System.Drawing.Color.White;
             this.adtbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adtbxg.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.adtbxg.Location = new System.Drawing.Point(250, 57);
@@ -276,6 +246,7 @@
             // 
             // soyadtbxg
             // 
+            this.soyadtbxg.BackColor = System.Drawing.Color.White;
             this.soyadtbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.soyadtbxg.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.soyadtbxg.Location = new System.Drawing.Point(250, 87);
@@ -298,6 +269,7 @@
             // 
             // telefontbxg
             // 
+            this.telefontbxg.BackColor = System.Drawing.Color.White;
             this.telefontbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.telefontbxg.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.telefontbxg.Location = new System.Drawing.Point(250, 117);
@@ -310,6 +282,7 @@
             // 
             // adrestbxg
             // 
+            this.adrestbxg.BackColor = System.Drawing.Color.White;
             this.adrestbxg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adrestbxg.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.adrestbxg.Location = new System.Drawing.Point(250, 150);
@@ -352,10 +325,51 @@
             this.label5.TabIndex = 30;
             this.label5.Text = "ADRES :";
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 6;
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // name
+            // 
+            this.name.DataPropertyName = "name";
+            this.name.HeaderText = "AD";
+            this.name.MinimumWidth = 6;
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // surname
+            // 
+            this.surname.DataPropertyName = "surname";
+            this.surname.HeaderText = "SOYAD";
+            this.surname.MinimumWidth = 6;
+            this.surname.Name = "surname";
+            this.surname.ReadOnly = true;
+            // 
+            // phone
+            // 
+            this.phone.DataPropertyName = "phone";
+            this.phone.HeaderText = "TELEFON";
+            this.phone.MinimumWidth = 6;
+            this.phone.Name = "phone";
+            this.phone.ReadOnly = true;
+            // 
+            // address
+            // 
+            this.address.DataPropertyName = "address";
+            this.address.HeaderText = "ADRES";
+            this.address.MinimumWidth = 6;
+            this.address.Name = "address";
+            this.address.ReadOnly = true;
+            // 
             // MemberUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw1);
             this.Controls.Add(this.tbxara);
@@ -378,11 +392,6 @@
 
         private System.Windows.Forms.Button btnClose;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dgw1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tcno;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn surname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn address;
         private System.Windows.Forms.TextBox tbxara;
         private System.Windows.Forms.Button btnara;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -400,5 +409,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn surname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn address;
     }
 }

@@ -73,7 +73,7 @@ namespace Kutuphanecsharp
                 {
                     baglanti.Open();
 
-                    string update = $@"update Uyeler set name=@name , surname=@surname , phone=@phone , tc=@tc , birthdate=@birthdate , gender=@gender , education=@education , address=@address where ID=@ID";
+                    string update = $@"update Uyeler set name=@name , surname=@surname , phone=@phone , address=@address where ID=@ID";
 
                     SQLiteCommand cmd = new SQLiteCommand(update, baglanti);
                     cmd.Parameters.AddWithValue("@ID", dgw1.SelectedCells[0].Value);
@@ -96,7 +96,6 @@ namespace Kutuphanecsharp
 
             }
 
-
         }
 
         public void listele()
@@ -118,7 +117,7 @@ namespace Kutuphanecsharp
             dgw1.DataSource = ds.Tables["kihmed"];
             baglanti.Close();
         }
-
+        
         private void dgw1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             adtbxg.Text = dgw1.CurrentRow.Cells["name"].Value.ToString();

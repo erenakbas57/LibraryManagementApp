@@ -173,6 +173,7 @@ namespace Kutuphanecsharp
             // 
             // btnHesapla
             // 
+            this.btnHesapla.BackColor = System.Drawing.Color.White;
             this.btnHesapla.FlatAppearance.BorderSize = 0;
             this.btnHesapla.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnHesapla.Location = new System.Drawing.Point(135, 409);
@@ -180,18 +181,19 @@ namespace Kutuphanecsharp
             this.btnHesapla.Size = new System.Drawing.Size(84, 27);
             this.btnHesapla.TabIndex = 64;
             this.btnHesapla.Text = "Hesapla";
-            this.btnHesapla.UseVisualStyleBackColor = true;
+            this.btnHesapla.UseVisualStyleBackColor = false;
             this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
             // 
             // btnCiroEkle
             // 
+            this.btnCiroEkle.BackColor = System.Drawing.Color.White;
             this.btnCiroEkle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCiroEkle.Location = new System.Drawing.Point(710, 354);
             this.btnCiroEkle.Name = "btnCiroEkle";
             this.btnCiroEkle.Size = new System.Drawing.Size(155, 43);
             this.btnCiroEkle.TabIndex = 67;
             this.btnCiroEkle.Text = "Günlük Kazancı Ekle";
-            this.btnCiroEkle.UseVisualStyleBackColor = true;
+            this.btnCiroEkle.UseVisualStyleBackColor = false;
             this.btnCiroEkle.Click += new System.EventHandler(this.btnCiroEkle_Click);
             // 
             // lbltarih
@@ -359,6 +361,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw2);
             this.Controls.Add(this.dgw1);

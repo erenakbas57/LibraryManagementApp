@@ -43,7 +43,7 @@ namespace Kutuphanecsharp
         private void tbxSearch_TextChanged(object sender, EventArgs e)
         {
             baglanti.Open();
-            komut = new SQLiteCommand("Select ID,name,surname,phone,address,okitaptoplam from Uyeler where name Like '%" + tbxSearch.Text + "%'", baglanti);
+            komut = new SQLiteCommand("Select ID,name,surname,phone,address from Uyeler where name Like '%" + tbxSearch.Text + "%'", baglanti);
             da = new SQLiteDataAdapter(komut);
             DataSet ds = new DataSet();
             da.Fill(ds);

@@ -58,10 +58,10 @@ namespace Kutuphanecsharp
             // lblAy
             // 
             this.lblAy.AutoSize = true;
-            this.lblAy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAy.ForeColor = System.Drawing.Color.Black;
             this.lblAy.Location = new System.Drawing.Point(234, 344);
             this.lblAy.Name = "lblAy";
-            this.lblAy.Size = new System.Drawing.Size(24, 17);
+            this.lblAy.Size = new System.Drawing.Size(21, 16);
             this.lblAy.TabIndex = 52;
             this.lblAy.Text = "hh";
             this.lblAy.Visible = false;
@@ -70,7 +70,7 @@ namespace Kutuphanecsharp
             // 
             this.lblAyAd.AutoSize = true;
             this.lblAyAd.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAyAd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAyAd.ForeColor = System.Drawing.Color.Black;
             this.lblAyAd.Location = new System.Drawing.Point(450, 339);
             this.lblAyAd.Name = "lblAyAd";
             this.lblAyAd.Size = new System.Drawing.Size(34, 22);
@@ -132,6 +132,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw);
             this.Controls.Add(this.lblAyAd);

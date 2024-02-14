@@ -113,8 +113,8 @@ namespace Kutuphanecsharp
                     cmd.Parameters.AddWithValue("rafid", cbxraf.Text);
                     cmd.Parameters.AddWithValue("@book", tbxad.Text);
                     cmd.Parameters.AddWithValue("@author", tbxyazar.Text);
-                    cmd.Parameters.AddWithValue("@category", tbxyayinevi.Text);
-                    cmd.Parameters.AddWithValue("@publisher", cbxkategori.Text);
+                    cmd.Parameters.AddWithValue("@category", cbxkategori.Text);
+                    cmd.Parameters.AddWithValue("@publisher", tbxyayinevi.Text);
 
                     cmd.ExecuteNonQuery();
 
@@ -129,6 +129,7 @@ namespace Kutuphanecsharp
                 tbxyayinevi.Clear();
                 cbxkategori.Items.Clear();
                 
+                
                 listele();
             }
 
@@ -141,6 +142,11 @@ namespace Kutuphanecsharp
             tbxyazar.Text = dgw1.CurrentRow.Cells["author"].Value.ToString();
             tbxyayinevi.Text = dgw1.CurrentRow.Cells["publisher"].Value.ToString();
             cbxkategori.Text = dgw1.CurrentRow.Cells["category"].Value.ToString();
+        }
+
+        private void tbxara_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

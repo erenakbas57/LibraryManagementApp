@@ -57,6 +57,7 @@ namespace Kutuphanecsharp
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LavenderBlush;
             this.groupBox1.Controls.Add(this.tbxSearch);
             this.groupBox1.Controls.Add(this.rbtnName);
             this.groupBox1.Controls.Add(this.rbtnAuthor);
@@ -72,6 +73,7 @@ namespace Kutuphanecsharp
             // 
             // tbxSearch
             // 
+            this.tbxSearch.BackColor = System.Drawing.Color.White;
             this.tbxSearch.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxSearch.Location = new System.Drawing.Point(33, 21);
             this.tbxSearch.Name = "tbxSearch";
@@ -158,6 +160,7 @@ namespace Kutuphanecsharp
             // 
             // tbxArama
             // 
+            this.tbxArama.BackColor = System.Drawing.Color.White;
             this.tbxArama.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxArama.Location = new System.Drawing.Point(751, 165);
             this.tbxArama.Multiline = true;
@@ -287,6 +290,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgw1);
             this.Controls.Add(this.btnListele);

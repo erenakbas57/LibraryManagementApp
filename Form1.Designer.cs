@@ -128,7 +128,7 @@ namespace Kutuphanecsharp
             this.PanelArayuz.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.PanelArayuz.Location = new System.Drawing.Point(0, 0);
             this.PanelArayuz.Name = "PanelArayuz";
-            this.PanelArayuz.Size = new System.Drawing.Size(246, 810);
+            this.PanelArayuz.Size = new System.Drawing.Size(246, 811);
             this.PanelArayuz.TabIndex = 11;
             // 
             // btnRezevasyon
@@ -542,7 +542,7 @@ namespace Kutuphanecsharp
             // panelUstSolMenu
             // 
             this.panelUstSolMenu.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelUstSolMenu.BackColor = System.Drawing.Color.LightGreen;
+            this.panelUstSolMenu.BackColor = System.Drawing.Color.Goldenrod;
             this.panelUstSolMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelUstSolMenu.Controls.Add(this.label2);
             this.panelUstSolMenu.Controls.Add(this.label1);
@@ -556,7 +556,7 @@ namespace Kutuphanecsharp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.Location = new System.Drawing.Point(18, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(209, 37);
@@ -568,7 +568,7 @@ namespace Kutuphanecsharp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.Location = new System.Drawing.Point(42, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 44);
@@ -578,7 +578,7 @@ namespace Kutuphanecsharp
             // 
             // panelUstMenu
             // 
-            this.panelUstMenu.BackColor = System.Drawing.Color.LightGreen;
+            this.panelUstMenu.BackColor = System.Drawing.Color.Goldenrod;
             this.panelUstMenu.Controls.Add(this.lblName);
             this.panelUstMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelUstMenu.Location = new System.Drawing.Point(246, 0);
@@ -601,7 +601,7 @@ namespace Kutuphanecsharp
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Pink;
+            this.panel1.BackColor = System.Drawing.Color.LavenderBlush;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.btnKapat);
             this.panel1.Controls.Add(this.btnGecikme);
@@ -657,14 +657,14 @@ namespace Kutuphanecsharp
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1282, 810);
+            this.ClientSize = new System.Drawing.Size(1282, 811);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelUstMenu);
             this.Controls.Add(this.PanelArayuz);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PanelSideMenu";
-            this.Text = "KİHMED Kitap & Kahve";
+            this.Text = "w";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.PanelArayuz.ResumeLayout(false);
             this.panelSettingsSubMenu.ResumeLayout(false);

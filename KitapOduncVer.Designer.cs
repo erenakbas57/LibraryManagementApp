@@ -114,6 +114,7 @@ namespace Kutuphanecsharp
             // 
             // uyeAdtbx
             // 
+            this.uyeAdtbx.BackColor = System.Drawing.Color.White;
             this.uyeAdtbx.Enabled = false;
             this.uyeAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeAdtbx.Location = new System.Drawing.Point(447, 431);
@@ -124,6 +125,7 @@ namespace Kutuphanecsharp
             // 
             // uyeSoyadtbx
             // 
+            this.uyeSoyadtbx.BackColor = System.Drawing.Color.White;
             this.uyeSoyadtbx.Enabled = false;
             this.uyeSoyadtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.uyeSoyadtbx.Location = new System.Drawing.Point(447, 483);
@@ -134,6 +136,7 @@ namespace Kutuphanecsharp
             // 
             // kitapAdtbx
             // 
+            this.kitapAdtbx.BackColor = System.Drawing.Color.White;
             this.kitapAdtbx.Enabled = false;
             this.kitapAdtbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.kitapAdtbx.Location = new System.Drawing.Point(447, 537);
@@ -144,7 +147,7 @@ namespace Kutuphanecsharp
             // 
             // btnKayit
             // 
-            this.btnKayit.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnKayit.BackColor = System.Drawing.Color.White;
             this.btnKayit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnKayit.Location = new System.Drawing.Point(588, 471);
             this.btnKayit.Name = "btnKayit";
@@ -203,6 +206,7 @@ namespace Kutuphanecsharp
             // 
             // tbxAraKitap
             // 
+            this.tbxAraKitap.BackColor = System.Drawing.Color.White;
             this.tbxAraKitap.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAraKitap.Location = new System.Drawing.Point(16, 48);
             this.tbxAraKitap.Name = "tbxAraKitap";
@@ -212,6 +216,7 @@ namespace Kutuphanecsharp
             // 
             // tbxAraUye
             // 
+            this.tbxAraUye.BackColor = System.Drawing.Color.White;
             this.tbxAraUye.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxAraUye.Location = new System.Drawing.Point(16, 251);
             this.tbxAraUye.Name = "tbxAraUye";
@@ -421,6 +426,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.dgwUye);
             this.Controls.Add(this.dgwKitap);

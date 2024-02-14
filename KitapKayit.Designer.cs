@@ -97,6 +97,7 @@ namespace Kutuphanecsharp
             // 
             // tbxad
             // 
+            this.tbxad.BackColor = System.Drawing.Color.White;
             this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxad.Location = new System.Drawing.Point(193, 40);
             this.tbxad.Name = "tbxad";
@@ -105,6 +106,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyazar
             // 
+            this.tbxyazar.BackColor = System.Drawing.Color.White;
             this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyazar.Location = new System.Drawing.Point(193, 80);
             this.tbxyazar.Name = "tbxyazar";
@@ -113,6 +115,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyayinevi
             // 
+            this.tbxyayinevi.BackColor = System.Drawing.Color.White;
             this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyayinevi.Location = new System.Drawing.Point(193, 160);
             this.tbxyayinevi.Name = "tbxyayinevi";
@@ -121,6 +124,7 @@ namespace Kutuphanecsharp
             // 
             // rafcbx
             // 
+            this.rafcbx.BackColor = System.Drawing.Color.White;
             this.rafcbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.rafcbx.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.rafcbx.FormattingEnabled = true;
@@ -239,6 +243,7 @@ namespace Kutuphanecsharp
             // 
             // cbxCategory
             // 
+            this.cbxCategory.BackColor = System.Drawing.Color.White;
             this.cbxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCategory.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxCategory.FormattingEnabled = true;
@@ -261,6 +266,7 @@ namespace Kutuphanecsharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.rafisimlbl);
             this.Controls.Add(this.cbxCategory);

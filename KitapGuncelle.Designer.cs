@@ -122,6 +122,7 @@ namespace Kutuphanecsharp
             // 
             // cbxraf
             // 
+            this.cbxraf.BackColor = System.Drawing.Color.White;
             this.cbxraf.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxraf.FormattingEnabled = true;
             this.cbxraf.Location = new System.Drawing.Point(160, 37);
@@ -131,6 +132,7 @@ namespace Kutuphanecsharp
             // 
             // cbxkategori
             // 
+            this.cbxkategori.BackColor = System.Drawing.Color.White;
             this.cbxkategori.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.cbxkategori.FormattingEnabled = true;
             this.cbxkategori.Location = new System.Drawing.Point(161, 158);
@@ -150,6 +152,7 @@ namespace Kutuphanecsharp
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.White;
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnUpdate.Location = new System.Drawing.Point(266, 240);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -157,7 +160,7 @@ namespace Kutuphanecsharp
             this.btnUpdate.Size = new System.Drawing.Size(121, 39);
             this.btnUpdate.TabIndex = 40;
             this.btnUpdate.Text = "GÜNCELLE";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // labelkategori
@@ -221,6 +224,7 @@ namespace Kutuphanecsharp
             // 
             // tbxad
             // 
+            this.tbxad.BackColor = System.Drawing.Color.White;
             this.tbxad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tbxad.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxad.Location = new System.Drawing.Point(160, 72);
@@ -243,6 +247,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyazar
             // 
+            this.tbxyazar.BackColor = System.Drawing.Color.White;
             this.tbxyazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tbxyazar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyazar.Location = new System.Drawing.Point(160, 101);
@@ -254,6 +259,7 @@ namespace Kutuphanecsharp
             // 
             // tbxyayinevi
             // 
+            this.tbxyayinevi.BackColor = System.Drawing.Color.White;
             this.tbxyayinevi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tbxyayinevi.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxyayinevi.Location = new System.Drawing.Point(160, 129);
@@ -420,28 +426,32 @@ namespace Kutuphanecsharp
             // 
             // tbxara
             // 
+            this.tbxara.BackColor = System.Drawing.Color.White;
             this.tbxara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tbxara.Location = new System.Drawing.Point(62, 23);
             this.tbxara.Multiline = true;
             this.tbxara.Name = "tbxara";
             this.tbxara.Size = new System.Drawing.Size(100, 27);
             this.tbxara.TabIndex = 72;
+            this.tbxara.TextChanged += new System.EventHandler(this.tbxara_TextChanged);
             // 
             // btnara
             // 
+            this.btnara.BackColor = System.Drawing.Color.White;
             this.btnara.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnara.Location = new System.Drawing.Point(168, 23);
             this.btnara.Name = "btnara";
             this.btnara.Size = new System.Drawing.Size(89, 28);
             this.btnara.TabIndex = 71;
             this.btnara.Text = "ARA";
-            this.btnara.UseVisualStyleBackColor = true;
+            this.btnara.UseVisualStyleBackColor = false;
             this.btnara.Click += new System.EventHandler(this.btnara_Click);
             // 
             // KitapGuncelle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1030, 603);
             this.Controls.Add(this.tbxara);
             this.Controls.Add(this.btnara);
